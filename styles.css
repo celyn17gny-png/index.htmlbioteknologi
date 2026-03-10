@@ -1,0 +1,50 @@
+body{
+    margin: 15px;
+    font-family: 'audiowide';
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(img.png);
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'courier new';
+    text-align: center;
+    position: fixed;
+    background-color: rgb(199, 182, 155);
+    padding: 15px 0px 10px 10px;
+    right: 4px;
+    width: 50%;
+    margin: 10x;
+    border-radius: 5px;
+    box-shadow: 0px 5px 2px 5px rgb(145, 123, 89);
+}
+nav{
+    margin-top:10px;
+}
+nav a{
+    font-family: 'Audiowide';
+    text-decoration: none;
+    color: rgb(138, 113, 88);
+    padding: 50px 25px 20px 20px;
+    font-size: 20px;
+}
+div a{
+    padding: 30px;
+    text-decoration: none;
+}
+.banner{
+    color: white;
+}
+header img{
+    height:80px;
+}
+nav a:hover{
+    color: rgb(198, 178, 151);
+    background-color: rgb(135, 118, 91);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px -2px rgb(124, 104, 70);
+    padding: 7px 20px;
+    transition: 0.5s;
+}
