@@ -1,24 +1,24 @@
 body{
-    margin: 15px;
-    font-family: 'audiowide';
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url(img.png);
+    margin: 0px;
+    font-family: "poppins";
+}
+html{
+    scroll-behavior: smooth;
 }
 header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    font-family: 'courier new';
     text-align: center;
     position: fixed;
-    background-color: rgb(199, 182, 155);
+    width: 95%;
+    background-color: rgb(182, 167, 144);
     padding: 15px 0px 10px 10px;
-    right: 4px;
-    width: 50%;
-    margin: 10x;
+    padding-right: 3%;
     border-radius: 5px;
-    box-shadow: 0px 5px 2px 5px rgb(145, 123, 89);
+    box-shadow: 0px 5px 2px 5px rgb(139, 127, 108);
+}
+header img{
+    height:60px;
 }
 nav{
     margin-top:10px;
@@ -30,21 +30,106 @@ nav a{
     padding: 50px 25px 20px 20px;
     font-size: 20px;
 }
-div a{
-    padding: 30px;
-    text-decoration: none;
-}
-.banner{
-    color: white;
-}
-header img{
-    height:80px;
-}
 nav a:hover{
-    color: rgb(198, 178, 151);
+    color: rgb(198, 178,151);
     background-color: rgb(135, 118, 91);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px -2px rgb(124, 104, 70);
-    padding: 7px 20px;
+    padding: 7px 15px;
     transition: 0.5s;
+}
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(img.png);
+}
+section.product{
+    height:800px;
+    text-align: center;
+}
+section.product img{
+    height: 300px;
+}
+.deskproduct{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+}
+section.howto{
+    height:800px;
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+section.all{
+    background-size: cover;
+    background-image: url(img5.jpg);
+    color:wheat;
+}
+.howto img{
+    height: 500px;
+}
+.deskhowto{
+    display:flex;
+    width:60%;
+    margin:auto;
+    text-align: center;
+}
+.dokumentasi{
+    margin:20px;
+}
+.penjelasan{
+    padding-top: 70px;
+}
+h3{
+    text-align: center;
+}
+section.profile{
+    height: 800px;
+    text-align: center;
+}
+.cardprofile{
+    background-color: rgb(213, 209, 209);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.imgprofile img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+.kotak{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.nama{
+    font-size: 50px;
+}
+.desk{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(163, 142, 117);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 5px rgb(123, 107, 83);
+    width:100%;
+    font-family: 'poppins';
+}
+.deskprofile{
+    color:rebeccapurple;
 }
